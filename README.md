@@ -19,6 +19,7 @@
   
 
 Ao final do processamento, qual será o valor da variável SOMA? 
+
 Resposta: 91
 
   
@@ -28,17 +29,18 @@ Resposta: 91
   
 
 IMPORTANTE:  
+Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código; 
 
-	Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código; 
-Resposta: programa fibonacci
-n = int(input())
+Resposta: programa q2
 
-a, b = 0, 1
+	n = int(input())
 
-while a < n:
-    a, b = b, a + b
+	a, b = 0, 1
 
-print(a == n)
+	while a < n:
+	    a, b = b, a + b
+
+	print(a == n)
    
 
 3) Descubra a lógica e complete o próximo elemento:  
@@ -64,28 +66,26 @@ f) 2,10, 12, 16, 17, 18, 19, 20
    
 
 IMPORTANTE:  
+a)Considerar a distância de 100km entre a cidade de Ribeirão Preto <-> Franca.  
+b)Considerar 2 pedágios como obstáculo e que o caminhão leva 5 minutos a mais para passar em cada um deles e o carro possui tag de pedágio (Sem Parar)  
+c)Explique como chegou no resultado. 
 
-a)            Considerar a distância de 100km entre a cidade de Ribeirão Preto <-> Franca.  
 
-b)           Considerar 2 pedágios como obstáculo e que o caminhão leva 5 minutos a mais para passar em cada um deles e o carro possui tag de pedágio (Sem Parar)  
-
-c)            Explique como chegou no resultado. 
-
- Resposta: Ambos estarão na mesma distãncia com relação a ribeirão preto, pois o carro sai de ribeirão e vai para franca, e o cmainhão sai de franca e vai para ribeirão independete do ponto onde se cruzarem na rodovia, ambos estão na mesma distãnci com relação a cidade de ribeirão preto, pois estão indo em direções opostas e calculamos a distãncia no ponto onde ambos estão emparelhados.
+Resposta: Ambos estarão na mesma distãncia com relação a ribeirão preto, pois o carro sai de ribeirão e vai para franca, e o cmainhão sai de franca e vai para ribeirão independete do ponto onde se cruzarem na rodovia, ambos estão na mesma distãnci com relação a cidade de ribeirão preto, pois estão indo em direções opostas e calculamos a distãncia no ponto onde ambos estão emparelhados.
 
 5) Escreva um programa que inverta os caracteres de um string. 
 
-  n = int(input())
-
-a, b = 0, 1
-
-while a < n:
-    a, b = b, a + b
-
-print(a == n)
-
 IMPORTANTE: 
+a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código; 
+b) Evite usar funções prontas, como, por exemplo, reverse; 
 
-	a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código; 
+Resposta: programa: q5
+n = int(input())
 
-	b) Evite usar funções prontas, como, por exemplo, reverse; 
+	a, b = 0, 1
+
+	while a < n:
+	    a, b = b, a + b
+
+	print(a == n)
+
